@@ -54,5 +54,6 @@ int main()
 	printf("ipVar1 指针变量的为： %p\n", ipVar1);
 
 	ponit();
+
 	return 0;
 }
