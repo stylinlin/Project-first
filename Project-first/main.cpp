@@ -10,6 +10,8 @@ int count = 5;
 extern void test();
 
 extern int ponit();
+extern int quote();
+extern int time();
 
 int main()
 {
@@ -54,6 +56,9 @@ int main()
 	printf("ipVar1 指针变量的为： %p\n", ipVar1);
 
 	ponit();
+
+	quote();
+	time();
 
 	return 0;
 }
