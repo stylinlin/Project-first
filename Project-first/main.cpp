@@ -12,6 +12,7 @@ extern void test();
 extern int ponit();
 extern int quote();
 extern int time();
+extern int ioStream();
 
 int main()
 {
@@ -59,6 +60,7 @@ int main()
 
 	quote();
 	time();
+	ioStream();
 
 	return 0;
 }
