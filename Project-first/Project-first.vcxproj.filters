@@ -33,5 +33,11 @@
     <ClCompile Include="iostream.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="cusStruct.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="cusClass.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

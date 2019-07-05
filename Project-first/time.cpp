@@ -4,7 +4,7 @@
 using namespace std;
 
 int time() {
-	cout << "以下为时间相关测试" << endl;
+	cout << "--------以下为时间相关测试--------" << endl;
 	time_t now = time(0); // 系统当前日期/时间
 	cout << "1970 到目前经过秒数:" << now << endl;
 

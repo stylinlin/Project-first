@@ -7,6 +7,7 @@ const int SIZE = 3;
 void getSecond(long* par); // 声明带指针参数的函数
 
 int ponit() {
+	cout << "---------指针------" << endl;
 	// 空指针的值为0
 	int* age = NULL;
 	if (!age) {

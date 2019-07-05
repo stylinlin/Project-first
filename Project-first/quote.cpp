@@ -3,7 +3,7 @@ using namespace std;
 int max(int& a, int& b);
 
 int quote() {
-	cout << "以下为引用" << endl;
+	cout << "-------以下为引用--------" << endl;
 	int i = 11;
 	int& i2 = i;
 	cout << i2 << endl;

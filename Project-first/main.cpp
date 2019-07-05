@@ -13,7 +13,9 @@ extern int ponit();
 extern int quote();
 extern int time();
 extern int ioStream();
-
+extern int cusStruct();
+extern int cusClass();
+ 
 int main()
 {
 	//这是一行注释
@@ -61,6 +63,8 @@ int main()
 	quote();
 	time();
 	ioStream();
+	cusStruct();
+	cusClass();
 
 	return 0;
 }

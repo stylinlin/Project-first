@@ -4,7 +4,7 @@ using namespace std;
 int ioStream() {
 	// 输入输出流
 	cout << "---------输入输出流------" << endl;
-	char name[8];
+	char name[8] = "ws";
 	//cin >> name;
 	cout << "你的名字叫：" << name << endl;
 	
