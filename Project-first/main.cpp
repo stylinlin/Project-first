@@ -15,6 +15,7 @@ extern int time();
 extern int ioStream();
 extern int cusStruct();
 extern int cusClass();
+extern int timecomplexity(int n);
  
 int main()
 {
@@ -65,6 +66,21 @@ int main()
 	ioStream();
 	cusStruct();
 	cusClass();
+	timecomplexity(1);
+	timecomplexity(2);
+	timecomplexity(3);
+	timecomplexity(4);
+	timecomplexity(5);
+	timecomplexity(6);
+	timecomplexity(7);
+	timecomplexity(8);
+	timecomplexity(9);
+	timecomplexity(10);
+	timecomplexity(11);
+	timecomplexity(12);
+	timecomplexity(13);
+	timecomplexity(14);
+	timecomplexity(15);
 
 	return 0;
 }
