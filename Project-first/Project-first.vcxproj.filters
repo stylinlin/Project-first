@@ -45,5 +45,8 @@
     <ClCompile Include="timecomlexity.cpp">
       <Filter>源文件\algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="cusList.cpp">
+      <Filter>源文件\algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
