@@ -48,5 +48,8 @@
     <ClCompile Include="cusList.cpp">
       <Filter>源文件\algorithm</Filter>
     </ClCompile>
+    <ClCompile Include="CheckBracket.cpp">
+      <Filter>源文件\algorithm</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

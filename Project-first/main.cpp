@@ -1,5 +1,6 @@
 #include <iostream>
 #include <stdio.h>
+#include <string>
 using namespace std;
 
 // 常量
@@ -17,7 +18,8 @@ extern int cusStruct();
 extern int cusClass();
 extern int timecomplexity(int n);
 extern int cusList();
- 
+extern int checkBrackets(char chars[], int length);
+
 int main()
 {
 	//这是一行注释
@@ -51,7 +53,7 @@ int main()
 	int  var1 = 1;
 	char var2[10];
 
-	int *ipVar1 = &var1;
+	int* ipVar1 = &var1;
 
 	printf("var1 变量的地址： %p\n", &var1);
 	printf("var2 变量的地址： %p\n", &var2);
@@ -70,7 +72,16 @@ int main()
 	timecomplexity(1);
 	cusList();
 
-
+	char chars[] = { '[','(',')',']','[','(' };
+	int result = checkBrackets(chars, 6); // 校验括号匹配与否
+	string show = "";
+	if (1 == result) {
+		show="匹配";
+	}
+	else {
+		show="不匹配";
+	}
+	cout << "括号匹配状态：" << show << endl;
 
 
 

@@ -72,7 +72,7 @@ void CusList::insert(int i, int e) {
 	}
 	elem[i - 1] = e; // i位置插入新元素e
 	length++;
-
+	
 	return;
 }
 // 获取线性表的元素个数
