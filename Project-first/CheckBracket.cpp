@@ -118,6 +118,21 @@ int checkBrackets(char chars[], int length) {
 			}
 			break;
 		}
+		case '{': { // ×óÀ¨ºÅ
+			stack.push(chars[i]);
+			i++;
+			break;
+		}
+		case '}': { // ÓÒÀ¨ºÅ
+			if (!stack.stackEmpty() && stack.getPop() == '{') {
+				stack.Pop();
+				i++;
+			}
+			else {
+				state = 0;
+			}
+			break;
+		}
 
 		default:
 		{

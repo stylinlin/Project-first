@@ -72,8 +72,8 @@ int main()
 	timecomplexity(1);
 	cusList();
 
-	char chars[] = { '[','(',')',']','[','(' };
-	int result = checkBrackets(chars, 6); // 校验括号匹配与否
+	char chars[] = { '[','(',')',']','[','(','{','}',')',']' };
+	int result = checkBrackets(chars, 10); // 校验括号匹配与否,注意数组大小和参数值要相等
 	string show = "";
 	if (1 == result) {
 		show="匹配";
